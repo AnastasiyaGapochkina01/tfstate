@@ -1,0 +1,5 @@
+date +%s
+less terraform.tfstate
+export ACCESS_KEY=
+export SECRET_KEY=
+terraform init -backend-config=access_key=YCAJEMw0zsANem_lD-IcF3c6w -backend-config=secret_key=YCOnwrGh8--oUUoVLoBfC6-FCJaThLihfdQgntbT
